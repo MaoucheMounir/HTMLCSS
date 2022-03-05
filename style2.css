@@ -1,0 +1,38 @@
+.vertical {
+  height: 450px;
+  width: 300px;
+}
+
+.horizontal {
+  height: 225px;
+  width: 300px;
+}
+
+.vertical:hover {
+  height: 500px;
+  width: 350px;
+  transition: 500ms;
+}
+
+.horizontal:hover {
+  height: 275px;
+  width: 350px;
+  transition: 500ms;
+}
+
+div.flexnature {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 1400px;
+  display: flex;
+  /* align-content: flex-start; */
+  justify-content: space-between;
+}
+div.flexurban {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 1400px;
+  display: flex;
+  /* align-content: flex-start; */
+  justify-content: space-around;
+}
